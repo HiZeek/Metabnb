@@ -1,0 +1,37 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 46px 0;
+}
+
+.header-logo {
+  width: 233px;
+  height: 36.67px;
+  cursor: pointer;
+}
+
+.header-navlinks {
+  display: flex;
+  gap: 48px;
+}
+
+.header-navlinks > a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+  color: var(--textblack-color);
+}
+
+.header-btn {
+  padding: 15px 27px;
+  background: var(--major-background-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
