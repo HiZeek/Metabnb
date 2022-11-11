@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Container from "../ui/Container";
 import "../style/Footer.css";
 
@@ -11,9 +12,11 @@ import Twitter from "../assets/Twitter.png";
 const Footer = () => {
   return (
     <footer>
-      <Container className='footer-container'>
+      <Container className="footer-container">
         <div>
-          <img src={FooterLogo} alt="Metabnb" className="footer-logo" />
+          <Link to='/'>
+            <img src={FooterLogo} alt="Metabnb" className="footer-logo" />
+          </Link>
           <div className="footer-social-icons">
             <img src={Facebook} alt="facebook-icon" />
             <img src={Instagram} alt="instagram-icon" />

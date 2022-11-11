@@ -12,6 +12,7 @@ footer {
 .footer-logo {
   width: 233px;
   height: 40px;
+  cursor: pointer;
 }
 
 .footer-social-icons {
