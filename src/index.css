@@ -39,3 +39,11 @@ button,
 input {
   font-family: 'Red Rose', cursive;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}

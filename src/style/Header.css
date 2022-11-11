@@ -21,7 +21,7 @@ header {
 
 .header-navlinks > a {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 25px;
   text-decoration: none;
   color: var(--textblack-color);
