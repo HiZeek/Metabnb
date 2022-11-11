@@ -1,0 +1,24 @@
+.brands-section {
+  background: var(--major-background-color);
+  padding: 20px 0;
+}
+
+.brand-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-container > img:nth-child(1) {
+  width: 222px;
+  height: 50px;
+}
+
+.brand-container > img:nth-child(2) {
+  width: 214.14px;
+  height: 37.56px;
+}
+
+.brand-container > img:nth-child(3) {
+  width: 198.32px;
+  height: 40.79px;
+}
