@@ -7,7 +7,7 @@ import "../style/Header.css";
 // Images
 import Logo from "../assets/Logo.png";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header>
       <Container className="header-container">
@@ -20,7 +20,7 @@ const Header = () => {
           <Link to="/nfts">NFTs</Link>
           <Link to="/community">Community</Link>
         </div>
-        <Button className="header-btn">Connect wallet</Button>
+        <Button className="header-btn" onClick={props.onShow}>Connect wallet</Button>
       </Container>
     </header>
   );

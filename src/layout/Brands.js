@@ -1,6 +1,6 @@
 import React from 'react';
-import "../style/Brands.css";
 import Container from '../ui/Container';
+import "../style/Brands.css";
 
 // Images
 import Opensea from '../assets/Opensea.png';

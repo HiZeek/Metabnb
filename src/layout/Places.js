@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Container from "../ui/Container";
-import "../style/Places.css";
 import PlaceList from "./PlaceList";
+import "../style/Places.css";
 
 // Images
 import Place1 from "../assets/Place1.png";
