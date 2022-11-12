@@ -4,12 +4,12 @@ import Button from "../ui/Button";
 import Container from "../ui/Container";
 
 // Images
-import HeroNft from '../assets/HeroNft.png'
+import HeroNft from "../assets/HeroNft.png";
 
 const Hero = () => {
   return (
     <section className="hero-section">
-      <Container className='hero-container'>
+      <Container className="hero-container">
         <div className="hero-about">
           <p className="hero-text">
             Rent a <span>Place</span> away from <span>Home</span> in the{" "}
@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-img">
-            <img src={HeroNft} alt="nfts" />
+          <img src={HeroNft} alt="nfts" />
         </div>
       </Container>
     </section>

@@ -31,7 +31,7 @@
   padding: 14px 33px;
   border: none;
   border-radius: 8px;
-  color: #A02279;
+  color: #a02279;
   background: var(--whiteline-background-color);
   font-weight: 400;
   font-size: 16px;
@@ -43,3 +43,47 @@
   width: 704px;
   height: 574.85px;
 }
+
+/* BREAKPOINTS */
+/* Large Screens */
+/* @media screen and (max-width: 1250px) {
+}
+
+@media screen and (max-width: 1000px) {
+  .nft-about-img > img {
+    width: 504px;
+    height: 374.85px;
+  }
+} */
+
+/* For medium devices */
+/* @media screen and (max-width: 768px) {
+  
+} */
+
+@media screen and (max-width: 576px) {
+  .nft-container {
+    display: grid;
+    gap: 50px;
+  }
+
+  .nft-about-text > h2 {
+    font-size: 35px;
+  }
+
+  .nft-about-text > p {
+    font-size: 16px;
+  }
+
+  .nft-about-img > img {
+    width: 504px;
+    height: 374.85px;
+  }
+}
+
+/* For small devices */
+/* @media screen and (max-width: 350px) {
+  .container {
+    max-width: 250px;
+  }
+} */

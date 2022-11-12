@@ -1,6 +1,8 @@
 .brands-section {
   background: var(--major-background-color);
   padding: 20px 0;
+  overflow: hidden;
+  margin: auto;
 }
 
 .brand-container {
@@ -22,3 +24,55 @@
   width: 198.32px;
   height: 40.79px;
 }
+
+/* BREAKPOINTS */
+/* Large Screens */
+/* @media screen and (max-width: 1250px) {
+}
+
+@media screen and (max-width: 1000px) {
+  .nft-about-img > img {
+    width: 504px;
+    height: 374.85px;
+  }
+} */
+
+/* For medium devices */
+/* @media screen and (max-width: 768px) {
+  
+} */
+
+@media screen and (max-width: 576px) {
+  .brand-container {
+    animation: scroll 10s linear infinite;
+    width: 250px;
+    align-items: center;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(calc(-250px * 3));
+    }
+  }
+
+  .brand-container > img {
+    margin-right: 100px;
+  }
+
+  .nft-about-img {
+    width: 504px;
+    height: 374.85px;
+  }
+}
+
+
+/* For small devices */
+/* @media screen and (max-width: 350px) {
+  .container {
+    max-width: 250px;
+  }
+} */

@@ -33,7 +33,7 @@
   display: flex;
   width: 618.71px;
   height: 54.08px;
-  border: 1px solid #A3A3A3;
+  border: 1px solid #a3a3a3;
   border-radius: 8px;
   padding-left: 15px;
 }
@@ -64,3 +64,65 @@
   width: 476px;
   height: 459px;
 }
+
+/* BREAKPOINTS */
+/* Large Screens */
+/* @media screen and (max-width: 1250px) {
+}
+
+@media screen and (max-width: 1000px) {
+  .nft-about-img > img {
+    width: 504px;
+    height: 374.85px;
+  }
+} */
+
+/* For medium devices */
+/* @media screen and (max-width: 768px) {
+  
+} */
+
+@media screen and (max-width: 576px) {
+  .hero-container {
+    display: grid;
+    justify-items: center;
+  }
+
+  .hero-about > .hero-text {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .hero-about > .hero-text-description {
+    margin: 30px 0;
+    width: 450px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .hero-search-container {
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  .hero-search {
+    width: 450px;
+  }
+
+  .hero-search > button {
+    padding: 17px 40px;
+  }
+
+  .hero-img > img {
+    width: 376px;
+    height: 359px;
+    margin-top: 50px;
+  }
+}
+
+/* For small devices */
+/* @media screen and (max-width: 350px) {
+  .container {
+    max-width: 250px;
+  }
+} */
