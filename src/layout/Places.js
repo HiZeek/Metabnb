@@ -55,7 +55,7 @@ const Places = () => {
   }, []);
 
   return (
-    <section className="places-section">
+    <section className="places-section" id="nfts">
       <Container className="places-container">
         <h2>Inspiration for your next adventure</h2>
         <PlaceList places={places} />

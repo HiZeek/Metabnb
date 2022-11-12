@@ -8,8 +8,16 @@ import "../style/Header.css";
 import Logo from "../assets/Logo.png";
 
 const Header = (props) => {
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header");
+    if (this.scrollY >= 80) header.classList.add("scroll-header");
+    else {
+      header.classList.remove("scroll-header");
+    }
+  });
+
   return (
-    <header>
+    <header className="header">
       <Container className="header-container">
         <Link to="/">
           <img src={Logo} alt="Metabnb" className="header-logo" />
@@ -17,10 +25,12 @@ const Header = (props) => {
         <div className="header-navlinks">
           <Link to="/">Home</Link>
           <Link to="/place-to-stay">Place to stay</Link>
-          <Link to="/nfts">NFTs</Link>
-          <Link to="/community">Community</Link>
+          <a href="#nfts">NFTs</a>
+          <a href="#community">Community</a>
         </div>
-        <Button className="header-btn" onClick={props.onShow}>Connect wallet</Button>
+        <Button className="header-btn" onClick={props.onShow}>
+          Connect wallet
+        </Button>
       </Container>
     </header>
   );

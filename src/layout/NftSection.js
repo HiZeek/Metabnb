@@ -8,7 +8,7 @@ import NftImg from "../assets/NftsectionImg.png";
 
 const NftSection = () => {
   return (
-    <section className="nfts">
+    <section className="nfts" id="community">
       <Container className="nft-container">
         <div className="nft-about-text">
           <h2>Metabnb NFTs</h2>
