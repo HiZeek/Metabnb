@@ -1,0 +1,36 @@
+.place-to-stay-section {
+  padding: 120px 0 80px;
+}
+
+.place-to-stay-locations {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  margin-bottom: 50px;
+}
+
+.place-to-stay-locations > div:nth-child(1) {
+  display: flex;
+  gap: 48px;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--textblack-color);
+}
+
+.place-to-stay-locations > div:nth-child(2) {
+  width: 161px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+  padding: 14px 13px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.place-to-stay-locations > div:nth-child(2) > img {
+  width: 24px;
+  height: 24px;
+}
