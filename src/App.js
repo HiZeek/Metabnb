@@ -15,7 +15,6 @@ function App() {
 
   const hideConnectWallet = () => {
     setConnectWallet(false);
-    console.log('worked');
   };
 
   return (

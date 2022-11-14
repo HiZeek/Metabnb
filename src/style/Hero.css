@@ -1,6 +1,6 @@
 .hero-section {
   background: var(--whiteline-background-color);
-  padding: 150px 0 80px;
+  padding: 150px 20px 80px;
 }
 
 .hero-container {
@@ -67,50 +67,30 @@
 
 /* BREAKPOINTS */
 /* Large Screens */
-/* @media screen and (max-width: 1250px) {
+@media screen and (max-width: 1250px) {
+  .hero-about > .hero-text-description {
+    width: 500px;
+  }
+
+  .hero-search {
+    width: 500px;
+  }
+
+  .hero-search > button {
+    padding: 17px 50px;
+  }
 }
 
-@media screen and (max-width: 1000px) {
-  .nft-about-img > img {
-    width: 504px;
-    height: 374.85px;
-  }
-} */
-
-/* For medium devices */
-/* @media screen and (max-width: 768px) {
-  
-} */
-
-@media screen and (max-width: 576px) {
-  .hero-container {
-    display: grid;
-    justify-items: center;
-  }
-
+@media screen and (max-width: 1100px) {
   .hero-about > .hero-text {
-    font-size: 45px;
-    line-height: 60px;
+    font-size: 48px;
+    line-height: 59.95px;
   }
 
   .hero-about > .hero-text-description {
     margin: 30px 0;
-    width: 450px;
     font-size: 20px;
     line-height: 35px;
-  }
-
-  .hero-search-container {
-    width: 450px;
-    margin: 0 auto;
-  }
-
-  .hero-search {
-    width: 450px;
-  }
-
-  .hero-search > button {
-    padding: 17px 40px;
   }
 
   .hero-img > img {
@@ -120,9 +100,70 @@
   }
 }
 
-/* For small devices */
-/* @media screen and (max-width: 350px) {
-  .container {
-    max-width: 250px;
+@media screen and (max-width: 920px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+   
   }
-} */
+
+  .hero-about > .hero-text {
+    width: 500px;
+  }
+
+  .hero-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* For medium devices */
+
+@media screen and (max-width: 768px) {
+  
+  .hero-search {
+    width: 450px;
+  }
+
+  .hero-about > .hero-text {
+    width: auto;
+  }
+
+  .hero-about > .hero-text-description {
+    width: auto;
+  }
+
+  
+}
+
+/* For small devices */
+@media screen and (max-width: 450px) {
+  .hero-search {
+    width: 350px;
+  }
+
+  .hero-search > button {
+    padding: 17px 30px;
+  }
+
+  .hero-img > img {
+    width: 326px;
+    height: 309px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero-section {
+    padding-top: 80px;
+  }
+
+  .hero-about > .hero-text {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .hero-search {
+    width: 290px;
+  }
+}

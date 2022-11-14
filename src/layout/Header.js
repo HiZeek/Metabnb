@@ -38,8 +38,8 @@ const Header = (props) => {
             </Link>
             <Link to="/">Home</Link>
             <Link to="/place-to-stay">Place to stay</Link>
-            <a href="#nfts">NFTs</a>
-            <a href="#community">Community</a>
+            <a href="#nfts" onClick={() => setToggle(false)}>NFTs</a>
+            <a href="#community" onClick={() => setToggle(false)}>Community</a>
             <Button
               className="header-btn-mobile"
               onClick={() => {

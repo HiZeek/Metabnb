@@ -1,6 +1,6 @@
 .brands-section {
   background: var(--major-background-color);
-  padding: 20px 0;
+  padding: 20px;
   overflow: hidden;
   margin: auto;
 }
@@ -38,11 +38,7 @@
 } */
 
 /* For medium devices */
-/* @media screen and (max-width: 768px) {
-  
-} */
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .brand-container {
     animation: scroll 10s linear infinite;
     width: 250px;
@@ -63,10 +59,10 @@
     margin-right: 100px;
   }
 
-  .nft-about-img {
-    width: 504px;
-    height: 374.85px;
-  }
+}
+
+@media screen and (max-width: 576px) {
+  
 }
 
 
