@@ -113,7 +113,7 @@ header {
     padding: 2.5rem;
     transform: translateX(-185%);
     z-index: 999;
-    transition: transform 1s;
+    transition: transform .5s;
   }
 
   .nav-mobile.nav-active {
