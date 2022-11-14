@@ -67,7 +67,6 @@
     background-origin: content-box;
     display: inline-block;
     position: relative;
-    z-index: -1;
   }
 
   #Location {
