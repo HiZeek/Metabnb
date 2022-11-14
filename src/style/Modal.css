@@ -19,3 +19,30 @@
   border-radius: 16px;
   z-index: 30;
 }
+
+/* BREAKPOINTS */
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .modal {
+    width: 450px;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 450px) {
+  .modal {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .modal {
+    width: 330px;
+  }
+}

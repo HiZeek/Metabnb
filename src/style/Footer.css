@@ -59,11 +59,6 @@ footer {
 }
 
 /* BREAKPOINTS */
-/* Large Screens */
-/* @media screen and (max-width: 992px) {
-  
-} */
-
 /* For medium devices */
 @media screen and (max-width: 768px) {
   .footer-container {
@@ -96,8 +91,3 @@ footer {
 @media screen and (max-width: 576px) {
   
 }
-
-/* For small devices */
-/* @media screen and (max-width: 350px) {
-  
-} */

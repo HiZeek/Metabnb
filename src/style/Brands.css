@@ -26,17 +26,6 @@
 }
 
 /* BREAKPOINTS */
-/* Large Screens */
-/* @media screen and (max-width: 1250px) {
-}
-
-@media screen and (max-width: 1000px) {
-  .nft-about-img > img {
-    width: 504px;
-    height: 374.85px;
-  }
-} */
-
 /* For medium devices */
 @media screen and (max-width: 768px) {
   .brand-container {
@@ -64,11 +53,3 @@
 @media screen and (max-width: 576px) {
   
 }
-
-
-/* For small devices */
-/* @media screen and (max-width: 350px) {
-  .container {
-    max-width: 250px;
-  }
-} */

@@ -48,7 +48,8 @@ body {
 
 code,
 button,
-input {
+input,
+select {
   font-family: "Red Rose", cursive;
 }
 

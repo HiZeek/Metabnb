@@ -55,12 +55,6 @@
   }
 }
 
-/* @media screen and (max-width: 992px) {
-  .container {
-    max-width: 768px;
-  }
-} */
-
 /* For medium devices */
 @media screen and (max-width: 768px) {
   .placelist {
@@ -71,11 +65,3 @@
 @media screen and (max-width: 576px) {
   
 }
-
-/* For small devices */
-/* @media screen and (max-width: 350px) {
-  .container {
-    max-width: 250px;
-  }
-} */
-

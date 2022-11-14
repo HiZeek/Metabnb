@@ -34,3 +34,45 @@
   width: 24px;
   height: 24px;
 }
+
+.place-to-stay-locations-mobile {
+  display: none;
+}
+
+/* BREAKPOINTS */
+/* Large Screens */
+@media screen and (max-width: 1100px) {
+  .place-to-stay-locations {
+    display: none;
+  }
+
+  .place-to-stay-locations-mobile {
+    display: block;
+  }
+
+  .place-to-stay-locations-dropdown {
+    height: 48px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #b4b4b4;
+    border-radius: 8px;
+    padding: 5px 13px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 19px;
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+    background: url(../assets/setting.png) no-repeat right;
+    background-size: 24px;
+    background-origin: content-box;
+    display: inline-block;
+    position: relative;
+    z-index: -1;
+  }
+
+  #Location {
+    -moz-appearance:none; 
+    -webkit-appearance:none;
+    appearance:none !important;
+  }
+}

@@ -113,6 +113,25 @@ const PlaceToStay = () => {
             <img src={setting} alt="settings" />
           </div>
         </div>
+        <div className="place-to-stay-locations-mobile">
+          <select
+            id="Location"
+            name="Location"
+            className="place-to-stay-locations-dropdown"
+          >
+            <option value="none" selected disabled hidden>
+              Location
+            </option>
+            <option value="resturant">Resturant</option>
+            <option value="cottage">Cottage</option>
+            <option value="castle">Castle</option>
+            <option value="fantast city">Fantast city</option>
+            <option value="beach">Beach</option>
+            <option value="carbins">Carbins</option>
+            <option value="off-grid">Off-grid</option>
+            <option value="farm">Farm</option>
+          </select>
+        </div>
         <PlaceList places={places} />
       </Container>
     </section>
